@@ -4,7 +4,7 @@ from typing import TYPE_CHECKING, List, Optional
 from sqlalchemy import String, Uuid
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
-from model import Base
+from .base import Base
 
 if TYPE_CHECKING:
     from .item import Item

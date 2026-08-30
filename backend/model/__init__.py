@@ -1,4 +1,3 @@
-from sqlalchemy.orm import DeclarativeBase
-
-class Base(DeclarativeBase):
-    pass
+from .user import User
+from .item import Item, ReportType
+from .base import Base
